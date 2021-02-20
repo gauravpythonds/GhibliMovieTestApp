@@ -2,7 +2,7 @@
 Python app which fetch a list of movies with people appeared in those movies from Ghibliapi
 ## STEPS TO RUN THE PROGRAM  ##
 
-  --- TO RUN ON YOUR LOCAL MACHINE ---
+    TO RUN ON YOUR LOCAL MACHINE
     [The only PRE-REQUISITE is that python should be installed on your system]
     1. unzip the contents of the folder and open the project in any IDE that supports Python
     2. setup your Python interpreter for the project
