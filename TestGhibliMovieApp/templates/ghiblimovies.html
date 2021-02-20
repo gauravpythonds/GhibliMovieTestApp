@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>GhibliTestMovieApp</title><meta charset="UTF-8"></head>
+<body>
+	<h1 style="text-align:center">Ghibli Movie List</h1>
+    <ul id="films">
+    {% for data in films %}
+        <li><span>Title : </span><a>{{ data.title }}</a></li>
+		<span>People : </span>
+		{% for p in data.people %}
+			{{ p }}
+			{{ ", " if not loop.last }}
+		{% else %}
+			<span>Information not available.</span>
+		{% endfor %}
+		<hr>
+    {% endfor %}
+    </ul>
+
+</body>
+</html>
